@@ -1,0 +1,174 @@
+/*Estrutura do site 
+---------------------------------*/
+body{
+	background: #f4f2ec url(../imagens/fundo.png) repeat-x;
+	font-style: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, Sans serif;
+}
+
+#container{
+	width: 1080px;
+	margin: 0 auto;
+
+}
+
+a:link, a:active, a:visited{
+	color: #af670a;
+	text-decoration: none;
+}
+a:hover{
+	color: #227115;	
+}
+
+/*-------------Logo---------*/
+#logo h1{
+	float: left;
+}
+#logo a{
+	width: 248px;
+	height: 21px;
+	text-indent: -9999px;
+	display: block;
+	background: url(../imagens/logo.png);
+	line-height: ;
+
+}
+
+/* Barra de navegação
+---------------------------*/
+header{
+	padding: 15px 0;
+	height: 55px;
+
+}
+
+nav ul{
+	list-style: none;
+	margin: 20px;
+	float: right;
+	line-height: px;
+}
+
+nav ul li{
+	float: left;
+}
+
+nav ul li a:link{
+	display: block;
+	margin-right: 25px;
+	padding-bottom: 3px;
+	text-transform: uppercase;
+	font-size: 0.8em;
+}
+nav ul li a:hover{
+	border-bottom:1px solid #535858 ;
+}
+
+/* Principal
+-----------------------------*/
+article#museu{
+	width: 710px;
+	float: left;
+	background:;
+}
+
+aside{
+	width: 350px;
+	background: #ebe7dd ;
+	float: right;
+	margin-bottom: 20px;
+}
+
+section#visita{
+	background: #cdc8b1;
+	padding: 10px 27px 27px 27px;
+	margin-top: 10px;
+}
+
+section#galeria a{
+	display: block;
+	margin: ;
+	background: url(../imagens/fundo-foto.png) no-repeat;
+	border: px solid red;
+	float: left;
+	margin: 10px;
+	padding: 16px 15px 18px 15px;
+
+}
+
+section#galeria{
+	padding: 0px 27px 0px 27px;
+}
+
+section#galeria img{
+	margin-top: 3px;
+	margin-left: 3px;
+}
+
+section#postagens article{
+	width: 310px;
+	margin:0 20px 10px 25px ;
+	float: left;
+}
+
+h3{
+	text-transform: uppercase;
+	font-size: 0.9em;
+	color: #227115;
+}
+
+h4{
+	color: #86521a;
+	text-transform: uppercase;
+	padding-bottom: 3px;
+	margin-bottom: 0;
+	font-size: 0.9em;
+}
+
+/*formularios
+-------------------*/
+
+input{
+	height: 20px;
+	width: 80px;
+	font-size: 1em;
+	border: none;
+}
+
+input#qtd{
+	width: 40px;
+
+}
+
+input.campo{
+	border: 1px solid #ada484;
+}
+
+input#botao{
+	border: 1px solid #ada484;
+	width: 100%;
+	height: 40px;
+	background: #9b9271;
+	color: white;
+	font-size: 1.2em;
+}
+
+fieldset{
+	border: none;
+}
+
+/* Rodapé
+-------------------- */
+footer{
+	border: px solid blue;
+	clear: both;
+	padding: 20px 0 30px 0;
+	text-align: center;
+	background: url(../imagens/fundo-rodape.png) no-repeat center top;
+}
+
+footer p a{
+	padding: 0 10px 0 10px;
+	font-size: 0.8em;
+
+}
+
